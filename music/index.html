@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Application Admin</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="server.js"></script>
+    <script type="module" src="db.js"></script>
+    <script type="module" src="musicControllers.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="admin-icon.png" alt="Admin Logo" width="32" height="32">
+            <span>MusicApp Admin</span>
+        </div>
+        <nav>
+            <a href="#dashboard">Dashboard</a>
+            <a href="#songs">Songs</a>
+            <a href="#artists">Artists</a>
+            <a href="#albums">Albums</a>
+        </nav>
+    </header>
+    <main>
+        <section id="dashboard">
+            <h1>Dashboard</h1>
+            <p>Welcome to the MusicApp Admin Dashboard. Use the navigation to manage songs, artists, and albums.</p>
+        </section>
+        <section id="songs">
+            <h1>Songs</h1>
+            <button class="add-button">Add New Song</button>
+            <!-- Song management table or form goes here -->
+        </section>
+        <section id="artists">
+            <h1>Artists</h1>
+            <button class="add-button">Add New Artist</button>
+            <!-- Artist management table or form goes here -->
+        </section>
+        <section id="albums">
+            <h1>Albums</h1>
+            <button class="add-button">Add New Album</button>
+            <!-- Album management table or form goes here -->
+        </section>
+    </main>
+    <script src="admin-script.js"></script>
+</body>
+</html>
